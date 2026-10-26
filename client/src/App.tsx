@@ -50,10 +50,9 @@ type WinnerData = {
   }[];
 };
 
-const socket = io("http://localhost:3000", {
+const socket = io("https://doodleverse-server.onrender.com", {
   autoConnect: false,
 });
-
 const COLORS = [
   "#222222",
   "#ef4444",
