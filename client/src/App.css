@@ -687,3 +687,20 @@ input {
   padding: 6px 10px;
   font-size: 12px;
 }
+.game-card h1 {
+  margin: 20px 0 16px;
+  font-size: clamp(32px, 5vw, 42px);
+  line-height: 1.25;
+  letter-spacing: -1px;
+  font-weight: 900;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.game-card h1 span {
+  display: block;
+}
+
+.game-card h1 span + span {
+  margin-top: 8px;
+}
