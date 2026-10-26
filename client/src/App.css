@@ -704,3 +704,12 @@ input {
 .game-card h1 span + span {
   margin-top: 8px;
 }
+.game-card .hero-icon {
+  display: block;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto 12px;
+  visibility: visible;
+  opacity: 1;
+}
